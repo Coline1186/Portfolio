@@ -72,24 +72,12 @@
   box-shadow: 2px 1px white;
 }
 .carousel.carousel-slider .control-arrow {
-  height: 30.1rem;
-  margin-left: 13.2rem;
-  margin-right: 13.2rem;
-  top: 0;
-  color: #0a0303;
-  font-size: 26px;
-  bottom: 0;
-  margin-top: -20px;
-  padding: 5px;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
-.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
-  -webkit-transition: all .25s ease-in;
-  -moz-transition: all .25s ease-in;
-  -ms-transition: all .25s ease-in;
-  -o-transition: all .25s ease-in;
-  transition: all .25s ease-in;
+.carousel .control-arrow .carousel.carousel-slider .control-arrow {
+  transition: all 0.25s ease-in;
   opacity: 1;
-  filter: alpha(opacity = 40);
   position: absolute;
   z-index: 2;
   top: 20px;
@@ -97,4 +85,28 @@
   border: 0;
   font-size: 32px;
   cursor: pointer;
+}
+.carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {
+  margin: 0px 5px;
+  display: inline-block;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  content: "";
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 30px solid black;
+  position: relative;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 30px solid black;
+  position: relative;
+}
+.carousel .control-next.control-arrow:hover {
+  background: none;
+  position: absolute;
+}
+.carousel .control-prev.control-arrow:hover {
+  background: none;
+  position: absolute;
 }
