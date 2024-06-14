@@ -1,0 +1,58 @@
+.liste {
+  margin-top: 3%;
+  width: 8%;
+}
+
+.link-image {
+  width: 10%;
+}
+img.animate__backInDown {
+  margin-top: 50%;
+  width: 74%;
+  border-radius: 50%;
+  border: solid 3px #ffc58d;
+}
+.animate__backInDown:hover{
+  color:red;
+}
+#darkmode{
+  display: flex;
+  justify-content: center;
+}
+
+#darkmode .dark {
+  background-color: #292c35;
+}
+#darkmode .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+#darkmode .label {
+  width: 44px;
+  height: 20px;
+  background-color:#111;
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+#darkmode .ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+#darkmode .checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}

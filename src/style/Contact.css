@@ -1,0 +1,67 @@
+#contact {
+  border-top: solid 6px #ffc58d;
+}
+.titles-contact {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+.text-contact{
+  margin-top: 2%;
+  font-weight: 600;
+}
+.input-firstname {
+  height: 35px;
+  width: 508px;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+.other-input{
+  height: 35px;
+  margin-top: 2%;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+.input-message{
+  height: 200px;
+  margin-top: 2%;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+.border-contact {
+  border-radius: 10%;
+  box-shadow: rgb(241, 190, 143) 0px 5px 15px;
+  border: solid 1px #ffc58d;
+  background: url(../assets//logoBack.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.6;
+  margin: 1% 30% 3% 30%;
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+}
+.form-email {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-family: var(--primary-font);
+  font-weight: 50;
+}
+.button-send {
+  width: 25%;
+  height: 50px;
+  margin-top: 2%;
+  border-radius: 6px;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  margin-left: 37%;
+  margin-top: 3%;
+  background-color: #ffc58d;
+  border-color: #ffc58d;
+  font-size: 1rem;
+}

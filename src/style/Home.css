@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.background {
+  background-color: #f8e4d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/logoBack.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.6;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(248, 228, 211, 0.5);
+  z-index: 1;
+  transition:
+    background 0.3s,
+    border 0.3s,
+    border-radius 0.3s,
+    box-shadow 0.3s,
+    transform var(--e-transform-transition-duration, 0.4s);
+}
+.animate__flipInX {
+  font-family: "Pacifico";
+  font-size: 8rem;
+  color: rgba(0, 0, 0, 0.57);
+  padding: 64px;
+}
+.my-job {
+  font-family: var(--second-font);
+  font-weight: 400;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.759);
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation:
+    typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+hr {
+  border: 2px solid #44282f;
+  width: 30%;
+  margin-top: 0%;
+  margin-bottom: 7%;
+}
