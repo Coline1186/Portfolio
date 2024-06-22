@@ -1,28 +1,27 @@
-import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
-import Competences from "./components/Propos";
-import Projets from "./components/Projets";
-import Propos from "./components/Competences";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Header from "./components/header";
+import Header from "./components/Header";
+import About from "./components/About";
 import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
     <>
-    <div>
-      <Router>
+      <div>
+        <Router>
           <Header />
           <ScrollToTop smooth color="rgb(77, 76, 76)" />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/propos" element={<Propos />} />
-            <Route path="/projets" element={<Projets />} />
-            <Route path="/competences" element={<Competences />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-      </Router>
+        </Router>
       </div>
     </>
   );

@@ -1,8 +1,7 @@
-import React from "react";
-import Competences from "./Propos";
 import "../style/Home.css";
-import Propos from "./Competences";
-import Projets from "./Projets";
+import Skills from "./Skills";
+import About from "./About";
+import Projects from "./Projects";
 import Contact from "./Contact";
 
 function Home() {
@@ -15,12 +14,12 @@ function Home() {
         </div>
       </div>
       <div>
-        <Competences />
+        <Skills />
       </div>
       <div>
-        <Propos />
+        <About />
         <div>
-          <Projets />
+          <Projects />
         </div>
         <div>
           <Contact />

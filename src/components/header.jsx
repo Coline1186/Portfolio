@@ -1,7 +1,6 @@
-import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import { BsMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import "../style/header.css";
+import "../style/Header.css";
 import "animate.css";
 import moi from "../assets/IMG_5476.jpeg";
 
@@ -31,7 +30,7 @@ function Header() {
           />
         </Link>
         <Link
-          to="/#propos"
+          to="/#about"
           scroll={(el) => scrollWithOffset(el, 100)}
           style={linkStyle}
           className=" animate__animated animate__backInDown"
@@ -39,7 +38,7 @@ function Header() {
           A propos
         </Link>
         <Link
-          to="/#competences"
+          to="/#skills"
           scroll={(el) => scrollWithOffset(el, 100)}
           style={linkStyle}
           className=" animate__animated animate__backInDown"
@@ -47,7 +46,7 @@ function Header() {
           Mes compétences
         </Link>
         <Link
-          to="/#projets"
+          to="/#projects"
           scroll={(el) => scrollWithOffset(el, 100)}
           style={linkStyle}
           className=" animate__animated animate__backInDown"

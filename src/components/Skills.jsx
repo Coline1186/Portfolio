@@ -7,9 +7,9 @@ import nodeLogo from "../assets/logo/node.png";
 import expressLogo from "../assets/logo/express.png";
 import mysqlLogo from "../assets/logo/mysql.png";
 
-import "../style/Competences.css";
+import "../style/Skills.css";
 
-const skills = [
+const hardSkills = [
   { name: "HTML5", logo: htmlLogo },
   { name: "CSS3", logo: cssLogo },
   { name: "JavaScript", logo: jsLogo },
@@ -19,12 +19,12 @@ const skills = [
   { name: "MySQL", logo: mysqlLogo },
 ];
 
-function Competences() {
+function Skills() {
   return (
-    <div id="competences">
+    <div id="skills">
       <h1 className="title">Mes compétences</h1>
       <div className="container-position">
-        {skills.map((skill, index) => (
+        {hardSkills.map((skill, index) => (
           <motion.div
             key={skill.name}
             className="card-style"
@@ -41,4 +41,4 @@ function Competences() {
   );
 }
 
-export default Competences;
+export default Skills;
