@@ -8,6 +8,7 @@ const images = [
   "src/assets/projects/Wildgram.png",
   "src/assets/projects/The-hero-experience.png",
   "src/assets/projects/Rigol-App.png",
+  "src/assets/projects/Gems.png",
   "src/assets/projects/portfolio.png",
 ];
 

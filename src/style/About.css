@@ -16,17 +16,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px; /* Adjust as needed */
-  margin-top: 20px;
-}
 
 .carousel-about {
   width: 80%;
-  height: 100%;
   overflow: hidden;
 }
 
@@ -35,10 +27,11 @@
   right: 8%;
   position: absolute;
   width: 30%;
-  height: 80vh;
+  height: 60vh;
 }
 
 .image-container-about img {
+  object-fit: cover;
   width: 100%;
   height: auto;
   max-height: 100%;

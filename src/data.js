@@ -3,7 +3,6 @@ import cssLogo from "./assets/logo/css3.png";
 import jsLogo from "./assets/logo/js.png";
 import reactLogo from "./assets/logo/react.png";
 
-
 const hoverImages = [
   {
     id: 1,
@@ -30,10 +29,35 @@ const hoverImages = [
   {
     id: 3,
     text: "Rigol'App",
+    projet:
+      "Premier projet à la Wild Code School. L'objectif est de créer une page Web avec un design professionnel",
+    techno: "Technologies utilisées",
+    logo: htmlLogo,
+    logo1: cssLogo,
+    logo2: jsLogo,
+    logo3: reactLogo,
   },
   {
     id: 4,
+    text: "Gems",
+    projet:
+      "Premier projet à la Wild Code School. L'objectif est de créer une page Web avec un design professionnel",
+    techno: "Technologies utilisées",
+    logo: htmlLogo,
+    logo1: cssLogo,
+    logo2: jsLogo,
+    logo3: reactLogo,
+  },
+  {
+    id: 5,
     text: "Portfolio",
+    projet:
+      "Premier projet à la Wild Code School. L'objectif est de créer une page Web avec un design professionnel",
+    techno: "Technologies utilisées",
+    logo: htmlLogo,
+    logo1: cssLogo,
+    logo2: jsLogo,
+    logo3: reactLogo,
   },
 ];
 
