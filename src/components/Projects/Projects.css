@@ -1,11 +1,21 @@
+#projects {
+  border-top: solid 6px #ffc58d;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+}
+
 .title-project {
   font-family: var(--primary-font);
   text-align: center;
-  margin-bottom: 1%;
+  margin-bottom: 7vh;
 }
-#projects {
-  border-top: solid 6px #ffc58d;
-}
+
 .carousel .slider-wrapper {
   width: 67%;
   position: relative;
@@ -36,19 +46,22 @@
   left: 0;
   text-align: center;
   color: white;
-  background-color: rgba(0 0 0 / 74%);
+  background-color: rgba(0, 0, 0, 0.74);
 }
 
 .slide:hover .text-tag {
   opacity: 1;
 }
+
 .logo-hover {
   max-width: 6%;
 }
+
 .text-hover {
   font-family: var(--second-font);
   margin-bottom: 2%;
 }
+
 .link-hover {
   margin-top: 3%;
   margin-right: auto;
@@ -59,25 +72,33 @@
   width: 20%;
   height: 48px;
 }
+
 .a-hover {
   text-decoration: none;
   color: white;
   font-family: var(--second-font);
 }
+
 .a-hover:hover {
   text-shadow: 3px 2px black;
 }
+
 .FaEarth {
   border-radius: 100%;
   box-shadow: 2px 1px white;
 }
+.carousel {
+  margin-bottom: 10vh;
+}
 .carousel * {
   border-radius: 20px;
 }
+
 .carousel.carousel-slider .control-arrow {
   margin-left: 10rem;
   margin-right: 10rem;
 }
+
 .carousel .control-arrow .carousel.carousel-slider .control-arrow {
   transition: all 0.25s ease-in;
   opacity: 1;
@@ -89,6 +110,7 @@
   font-size: 32px;
   cursor: pointer;
 }
+
 .carousel .control-arrow:before,
 .carousel.carousel-slider .control-arrow:before {
   margin: 0px 5px;
@@ -97,18 +119,22 @@
   border-bottom: 40px solid transparent;
   content: "";
 }
+
 .carousel .control-next.control-arrow:before {
   border-left: 0px solid black;
   position: relative;
 }
+
 .carousel .control-prev.control-arrow:before {
   border-right: 0px solid black;
   position: relative;
 }
+
 .carousel .control-next.control-arrow:hover {
   background: none;
   position: absolute;
 }
+
 .carousel .control-prev.control-arrow:hover {
   background: none;
   position: absolute;

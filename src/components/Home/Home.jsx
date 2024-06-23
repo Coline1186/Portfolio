@@ -1,8 +1,8 @@
-import "../style/Home.css";
-import Skills from "./Skills";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import "../Home/Home.css";
+import Skills from "../Skills/Skills";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 function Home() {
   return (
@@ -16,9 +16,9 @@ function Home() {
       <div>
         <About />
         <div>
-      <div>
-        <Skills />
-      </div>
+          <div>
+            <Skills />
+          </div>
           <Projects />
         </div>
         <div>

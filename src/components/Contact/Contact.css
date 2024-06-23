@@ -1,11 +1,21 @@
 #contact {
   border-top: solid 6px #ffc58d;
+  animation: fade-in 3s;
+  min-height: 100vh;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
 }
 .titles-contact {
   text-align: center;
   font-family: var(--primary-font);
 }
-.text-contact{
+.text-contact {
   margin-top: 2%;
   font-weight: 600;
 }
@@ -16,14 +26,14 @@
   opacity: 0.8;
   font-size: 1.2rem;
 }
-.other-input{
+.other-input {
   height: 35px;
   margin-top: 2%;
   border-radius: 10px;
   opacity: 0.8;
   font-size: 1.2rem;
 }
-.input-message{
+.input-message {
   height: 200px;
   margin-top: 2%;
   border-radius: 10px;

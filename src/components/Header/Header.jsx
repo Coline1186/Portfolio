@@ -1,6 +1,6 @@
 import { HashLink as Link } from "react-router-hash-link";
 import { BsMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import "../style/Header.css";
+import "../Header/Header.css";
 import "animate.css";
 import moi from "../assets/IMG_5476.jpeg";
 

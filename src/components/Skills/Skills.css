@@ -1,6 +1,11 @@
 #skills {
   border-top: solid 6px #ffc58d;
 }
+.title-skills {
+  margin-bottom: 5vh;
+  font-family: var(--primary-font);
+  text-align: center;
+}
 .card-style {
   background: #fff;
   border-radius: 10px;
@@ -11,15 +16,29 @@
   width: 150px;
 }
 .container-position {
-  margin: 3% 20% 2% 20%;
+  margin: 3% 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
   padding: 40px;
+  background-color: #f8e4d3;
+  width: 50vw;
 }
 .logo-style {
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
+}
+.soft-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50vw;
+  background-color: #f8e4d3;
+  margin: 3% 2%;
+}
+.cv {
+  width: 40vw;
 }
