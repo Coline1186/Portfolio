@@ -1,4 +1,4 @@
-import "../Home/Home.css";
+import "./Home.css";
 import Skills from "../Skills/Skills";
 import About from "../About/About";
 import Projects from "../Projects/Projects";

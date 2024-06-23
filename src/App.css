@@ -18,12 +18,7 @@
 
 body {
   background-repeat: no-repeat;
-  background: rgb(240, 226, 213);
-  background: linear-gradient(
-    0deg,
-    rgba(240, 226, 213, 1) 26%,
-    rgba(253, 247, 235, 1) 59%
-  );
+  background: rgb(253, 247, 235);
 }
 header {
   position: fixed;

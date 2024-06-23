@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .background {
-  background-color: #f8e4d3;
+  background: rgb(253, 247, 235);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,13 +14,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("../assets/logoBack.jpg");
+  background-image: url("../../assets/logoBack.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   opacity: 0.6;
 }
 .name {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;

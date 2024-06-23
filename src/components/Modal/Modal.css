@@ -1,0 +1,19 @@
+#modal {
+  position: absolute;
+  left: 0;
+  top: 200vh;
+  width: 100vw;
+  background-color: rgba(247, 219, 192, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+.btn-close {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+.cv-modal {
+  width: 50vw;
+}

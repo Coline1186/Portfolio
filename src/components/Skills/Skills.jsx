@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import { Fade } from "react-awesome-reveal";
-import htmlLogo from "../../assets/logo/html5.png"
+import htmlLogo from "../../assets/logo/html5.png";
 import cssLogo from "../../assets/logo/css3.png";
 import jsLogo from "../../assets/logo/js.png";
 import reactLogo from "../../assets/logo/react.png";
@@ -9,7 +9,9 @@ import nodeLogo from "../../assets/logo/node.png";
 import expressLogo from "../../assets/logo/express.png";
 import mysqlLogo from "../../assets/logo/mysql.png";
 import cv from "../../assets/cv/cv portfolio.png";
-import "../Skills/Skills.css";
+import "./Skills.css";
+import { useState } from "react";
+import Modal from "../Modal/Modal";
 
 const hardSkills = [
   { name: "HTML5", logo: htmlLogo },
@@ -22,6 +24,11 @@ const hardSkills = [
 ];
 
 function Skills() {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const handleClick = () => {
+    setModalOpen(true);
+  };
   return (
     <div id="skills">
       <Fade duration={2000}>
@@ -47,13 +54,25 @@ function Skills() {
               </motion.div>
             ))}
           </Fade>
+          {modalOpen && (
+            <Modal
+              setModalOpen={setModalOpen}
+              close={() => {
+                setModalOpen(false);
+              }}
+            />
+          )}
         </div>
         <div className="soft-skills">
-          <p>cliquer sur mon CV pour l'agrandir</p>
-          <img src={cv} alt="mon cv" className="cv"/>
-          <a href="/public/cv/CV développement web.pdf" download>
-            Télécharger mon CV
-          </a>
+          <Fade duration={2000}>
+            <p className="title-soft">Cliquer sur mon CV pour l'agrandir</p>
+            <img src={cv} alt="mon cv" className="cv" onClick={handleClick} />
+            <div className="download-btn">
+              <a href="/public/cv/CV développement web.pdf" download className="download-txt">
+                Télécharger mon CV
+              </a>
+            </div>
+          </Fade>
         </div>
       </div>
     </div>

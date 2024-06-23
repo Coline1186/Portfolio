@@ -2,7 +2,7 @@
 import { useRef } from "react";
 import { Fade } from "react-awesome-reveal";
 import emailjs from "@emailjs/browser";
-import "../Contact/Contact.css";
+import "./Contact.css";
 
 function Contact() {
   const form = useRef();

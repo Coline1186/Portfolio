@@ -44,7 +44,7 @@
   border-radius: 10%;
   box-shadow: rgb(241, 190, 143) 0px 5px 15px;
   border: solid 1px #ffc58d;
-  background: url(../assets//logoBack.jpg);
+  background: url(../../assets//logoBack.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -68,10 +68,9 @@ label {
   margin-top: 2%;
   border-radius: 6px;
   font-family: var(--primary-font);
-  color: var(--primary-color);
   margin-left: 37%;
   margin-top: 3%;
   background-color: #ffc58d;
-  border-color: #ffc58d;
+  border-color: #f0eae4;
   font-size: 1rem;
 }

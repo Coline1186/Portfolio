@@ -1,8 +1,8 @@
 import { HashLink as Link } from "react-router-hash-link";
 import { BsMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import "../Header/Header.css";
+import "./Header.css";
 import "animate.css";
-import moi from "../assets/IMG_5476.jpeg";
+import moi from "../../assets/IMG_5476.jpeg";
 
 function Header() {
   const scrollWithOffset = (el, offset) => {
@@ -15,7 +15,7 @@ function Header() {
   };
   
   return (
-    <header className="header">
+    <header id="header">
       <nav style={navStyle}>
         <Link
           to="/#home"

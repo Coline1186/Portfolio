@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import "../About/About.css";
+import "./About.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";

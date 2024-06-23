@@ -1,7 +1,8 @@
 import { Carousel } from "react-responsive-carousel";
+import { motion } from "framer-motion";
 import hoverImages from "../../data";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "../Projects/Projects.css";
+import "./Projects.css";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
 
@@ -12,6 +13,7 @@ const images = [
   "src/assets/projects/Gems.png",
   "src/assets/projects/portfolio.png",
 ];
+const indexesToShowLogo3 = [1, 2, 4];
 
 function Projects() {
   return (
@@ -21,50 +23,81 @@ function Projects() {
           <h1 className="title-project">Mes projets</h1>
         </Fade>
         <Fade duration={2000}>
-          <Carousel useKeyboardArrows={true}>
+          <Carousel
+            useKeyboardArrows={true}
+            swipeable={true}
+            emulateTouch={true}
+            showThumbs={false}
+            showStatus={false}
+            dynamicHeight={true}
+          >
             {images.map((URL, index) => (
               <div className="slide" key={index}>
                 <img alt="sample_file" src={URL} />
                 <div className="text-tag">
-                  <h1
-                    className="text-hover"
-                    style={{ fontSize: "4rem", textDecoration: "underline" }}
+                  <h1 className="text-hover">{hoverImages[index].text}</h1>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    animate={{ y: [2, -10, 2] }}
+                    transition={{
+                      repeat: Infinity,
+                      duration: 2,
+                      delay: index * 0.2,
+                    }}
                   >
-                    {hoverImages[index].text}
-                  </h1>
-                  <p className="text-hover" style={{ fontSize: "1.5rem" }}>
-                    {hoverImages[index].projet}
-                  </p>
-                  <h2
-                    className="text-hover"
-                    style={{ fontSize: "2.5rem", textDecoration: "underline" }}
-                  >
-                    {hoverImages[index].techno}
-                  </h2>
-                  <div style={{ display: "flex", justifyContent: "center" }}>
-                    <img
-                      src={hoverImages[index].logo}
-                      alt="logo"
-                      className="logo-hover"
-                    />
-                    <img
-                      src={hoverImages[index].logo1}
-                      alt="logo"
-                      className="logo-hover"
-                    />
-                    <img
-                      src={hoverImages[index].logo2}
-                      alt="logo"
-                      className="logo-hover"
-                    />
-                    {index === 1 && (
+                    <div style={{ display: "flex", justifyContent: "center" }}>
                       <img
-                        src={hoverImages[index].logo3}
+                        src={hoverImages[index].logo}
                         alt="logo"
                         className="logo-hover"
                       />
-                    )}
-                  </div>
+                      <img
+                        src={hoverImages[index].logo1}
+                        alt="logo"
+                        className="logo-hover"
+                      />
+                      <img
+                        src={hoverImages[index].logo2}
+                        alt="logo"
+                        className="logo-hover"
+                      />
+                      {indexesToShowLogo3.includes(index) && (
+                        <img
+                          src={hoverImages[index].logo3}
+                          alt="logo"
+                          className="logo-hover"
+                        />
+                      )}
+                      {index === 3 && (
+                        <>
+                          <img
+                            src={hoverImages[index].logo4}
+                            alt="logo"
+                            className="logo-hover"
+                            style={{
+                              background: "rgb(255,255,255, 0.4)",
+                              marginRight: "2vh",
+                            }}
+                          />
+                          <img
+                            src={hoverImages[index].logo5}
+                            alt="logo"
+                            className="logo-hover"
+                            style={{
+                              background: "rgb(255,255,255, 0.4)",
+                              marginRight: "2vh",
+                            }}
+                          />
+                          <img
+                            src={hoverImages[index].logo6}
+                            alt="logo"
+                            className="logo-hover"
+                            style={{ background: "rgb(255,255,255, 0.4)" }}
+                          />
+                        </>
+                      )}
+                    </div>
+                  </motion.div>
                   <div style={{ display: "flex" }}>
                     <h2 className="link-hover">
                       <FaEarthAmericas
@@ -75,14 +108,25 @@ function Projects() {
                         }}
                         className="FaEarth"
                       />
-                      <a
-                        href={hoverImages[index].site}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="a-hover"
-                      >
-                        Lien du site
-                      </a>
+                      {index === 3 ? (
+                        <a
+                          href={hoverImages[index].site}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="a-hover"
+                        >
+                          Lien GitHub
+                        </a>
+                      ) : (
+                        <a
+                          href={hoverImages[index].site}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="a-hover"
+                        >
+                          Lien du site
+                        </a>
+                      )}
                     </h2>
                   </div>
                 </div>
