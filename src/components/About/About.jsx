@@ -3,19 +3,18 @@ import "./About.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Fade } from "react-awesome-reveal";
+import img1 from "../../assets/about/1img-4681.webp";
+import img2 from "../../assets/about/2img-3902.webp";
+import img3 from "../../assets/about/3IMG_4816.png";
+import img4 from "../../assets/about/4img-1593.webp";
+import img5 from "../../assets/about/5img-2585.webp";
+import img6 from "../../assets/about/6e2480b.webp";
+import img7 from "../../assets/about/7image0000001.webp";
+import img8 from "../../assets/about/8img-5634-min.webp";
+import img9 from "../../assets/about/9img-2178.webp";
+import img10 from "../../assets/about/10img-4430.webp";
 
-const images = [
-  require("../../assets/about/1img-4681.webp"),
-  require("../../assets/about/2img-3902.webp"),
-  require("../../assets/about/3IMG_4816.png"),
-  require("../../assets/about/4img-1593.webp"),
-  require("../../assets/about/5img-2585.webp"),
-  require("../../assets/about/6e2480b.webp"),
-  require("../../assets/about/7image0000001.webp"),
-  require("../../assets/about/8img-5634-min.webp"),
-  require("../../assets/about/9img-2178.webp"),
-  require("../../assets/about/10img-4430.webp"),
-];
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
 function About() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,8 +61,9 @@ function About() {
               décidé d'explorer le développement web.
             </p>
             <p>
-              Cette décision s'est révélée être la bonne. Le bootcamp de 5 mois
-              à la Wild Code School a confirmé mon choix de reconversion. <br />
+              Cette décision s'est révélée être la bonne.
+              Le bootcamp de 5 mois à la Wild Code School a confirmé mon choix
+              de reconversion. <br />
               Contrairement aux idées reçues, mon sens du relationnel et mon
               côté humain sont des atouts précieux dans ce domaine. Ils
               facilitent grandement le travail en équipe.
@@ -79,8 +79,8 @@ function About() {
               En dehors du développement web, j'aime voyager aux quatre coins du
               monde en famille ou entre amis, assister à des concerts, passer du
               temps avec mon neveu... <br />
-              Mais en vrai ce que j'aime par dessus tout c'est... MON CHAT 😻,
-              faut dire qu'elle est vraiment parfaite non ? 😆
+              Mais en vrai ce que j'aime par dessus tout c'est... MON CHAT 😻, faut
+              dire qu'elle est vraiment parfaite non ? 😆
             </p>
           </Fade>
         </div>
