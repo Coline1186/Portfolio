@@ -68,7 +68,11 @@ function Skills() {
             <p className="title-soft">Cliquer sur mon CV pour l'agrandir</p>
             <img src={cv} alt="mon cv" className="cv" onClick={handleClick} />
             <div className="download-btn">
-              <a href="/cv/CV développement web.pdf" download className="download-txt">
+              <a
+                href="/cv/CV développement web.pdf"
+                download
+                className="download-txt"
+              >
                 Télécharger mon CV
               </a>
             </div>
