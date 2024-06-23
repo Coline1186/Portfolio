@@ -5,14 +5,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Projects.css";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
+import wildram from "../../assets/projects/Wildgram.png";
+import hero from "../../assets/projects/The-hero-experience.png";
+import rigol from "../../assets/projects/Rigol-App.png";
+import gems from "../../assets/projects/Gems.png";
+import portfolio from "../../assets/projects/portfolio.png";
 
-const images = [
-  "src/assets/projects/Wildgram.png",
-  "src/assets/projects/The-hero-experience.png",
-  "src/assets/projects/Rigol-App.png",
-  "src/assets/projects/Gems.png",
-  "src/assets/projects/portfolio.png",
-];
+const images = [wildram, hero, rigol, gems, portfolio];
 const indexesToShowLogo3 = [1, 2, 4];
 
 function Projects() {
