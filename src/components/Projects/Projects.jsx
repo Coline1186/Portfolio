@@ -83,7 +83,6 @@ function Projects() {
                             alt="logo"
                             className="logo-hover"
                             style={{
-                              background: "rgb(255,255,255, 0.4)",
                               marginRight: "2vh",
                             }}
                           />
@@ -91,7 +90,6 @@ function Projects() {
                             src={hoverImages[index].logo6}
                             alt="logo"
                             className="logo-hover"
-                            style={{ background: "rgb(255,255,255, 0.4)" }}
                           />
                         </>
                       )}

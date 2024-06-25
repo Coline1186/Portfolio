@@ -3,8 +3,8 @@ import cssLogo from "./assets/logo/css3.png";
 import jsLogo from "./assets/logo/js.png";
 import reactLogo from "./assets/logo/react.png";
 import express from "./assets/logo/express.png";
-import sql from "./assets/logo/mysql.png";
-import node from "./assets/logo/node.png";
+import sql from "./assets/logo/4691303_mysql_icon.png";
+import node from "./assets/logo/1012817_code_development_logo_nodejs_icon.png";
 
 const hoverImages = [
   {

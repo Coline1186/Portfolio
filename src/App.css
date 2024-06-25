@@ -18,7 +18,9 @@
 
 body {
   background-repeat: no-repeat;
-  background: rgb(253, 247, 235);
+  background: rgb(250, 248, 244);
+
+  /* background: rgb(253, 247, 235); */
 }
 header {
   position: fixed;
