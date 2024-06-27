@@ -20,6 +20,8 @@
   font-weight: 600;
 }
 .input-firstname {
+  padding-left: 1%;
+  margin-top: 2%;
   height: 35px;
   width: 508px;
   border-radius: 10px;
@@ -27,6 +29,7 @@
   font-size: 1.2rem;
 }
 .other-input {
+  padding-left: 1%;
   height: 35px;
   margin-top: 2%;
   border-radius: 10px;
@@ -34,6 +37,7 @@
   font-size: 1.2rem;
 }
 .input-message {
+  padding-left: 1%;
   height: 200px;
   margin-top: 2%;
   border-radius: 10px;
@@ -41,13 +45,14 @@
   font-size: 1.2rem;
 }
 .border-contact {
+  width: 42vw;
   border-radius: 10%;
   box-shadow: rgb(241, 190, 143) 0px 5px 15px;
   border: solid 1px #ffc58d;
   background: url(../../assets//logoBack.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   opacity: 0.6;
   margin: 1% 30% 3% 30%;
   padding-top: 1%;

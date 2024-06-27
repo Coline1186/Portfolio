@@ -27,7 +27,7 @@
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  background-color: rgb(248, 228, 211, 0.5);
+  /* background-color: rgb(248, 228, 211, 0.5); */
   z-index: 1;
   transition:
     background 0.3s,
@@ -38,15 +38,15 @@
 }
 .animate__flipInX {
   font-family: "Pacifico";
-  font-size: 8rem;
-  color: rgba(0, 0, 0, 0.57);
-  padding: 64px;
+  font-size: 9rem;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 5vh;
 }
 .my-job {
   font-family: var(--second-font);
   font-weight: 400;
   font-size: 4rem;
-  color: rgba(0, 0, 0, 0.759);
+  color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   border-right: 2px solid hsl(0, 0%, 80%);
   white-space: nowrap;

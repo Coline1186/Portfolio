@@ -1,0 +1,50 @@
+#footer {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 6px #ffc58d;
+  justify-content: space-around;
+  height: 20vh;
+}
+.linkedin-git {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-github {
+  font-size: 7vh;
+  cursor: pointer;
+}
+.logo-github:hover {
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+}
+.logo-git {
+  font-size: 7vh;
+  cursor: pointer;
+  margin-right: 2vh;
+}
+.logo-git:hover {
+  background-color: black;
+  color: white;
+  border: solid 2px black;
+  border-radius: 100%;
+}
+.logo-linkedin {
+  font-size: 7vh;
+  cursor: pointer;
+  margin-left: 2vh;
+}
+.logo-linkedin:hover {
+  background-color: black;
+  color: white;
+}
+.link-media {
+  color: black;
+}
+.signature {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+  font-weight: 500;
+}

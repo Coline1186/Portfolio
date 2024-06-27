@@ -11,8 +11,8 @@ import rigol from "../../assets/projects/Rigol-App.png";
 import gems from "../../assets/projects/Gems.png";
 import portfolio from "../../assets/projects/portfolio.png";
 
-const images = [wildram, hero, rigol, gems, portfolio];
-const indexesToShowLogo3 = [1, 2, 4];
+const images = [gems, rigol, hero, wildram, portfolio];
+const indexesToShowLogo3 = [0, 1, 2, 4];
 
 function Projects() {
   return (
@@ -67,15 +67,16 @@ function Projects() {
                           className="logo-hover"
                         />
                       )}
-                      {index === 3 && (
+                      {index === 0 && (
                         <>
                           <img
                             src={hoverImages[index].logo4}
                             alt="logo"
                             className="logo-hover"
                             style={{
-                              background: "rgb(255,255,255, 0.4)",
+                              color: "white",
                               marginRight: "2vh",
+                              marginLeft: "2vh",
                             }}
                           />
                           <img
@@ -105,7 +106,7 @@ function Projects() {
                         }}
                         className="FaEarth"
                       />
-                      {index === 3 ? (
+                      {index === 0 || index === 4 ? (
                         <a
                           href={hoverImages[index].site}
                           target="_blank"
