@@ -10,7 +10,7 @@ function Header() {
     window.scroll({
       top: elementPosition,
       left: 0,
-      behavior: "smooth", // Animation de défilement en douceur
+      behavior: "smooth", 
     });
   };
 
