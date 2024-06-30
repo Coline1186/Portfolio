@@ -38,6 +38,7 @@
 }
 .input-message {
   padding-left: 1%;
+  padding-top: 1%;
   height: 200px;
   margin-top: 2%;
   border-radius: 10px;
@@ -49,19 +50,29 @@
   border-radius: 10%;
   box-shadow: rgb(241, 190, 143) 0px 5px 15px;
   border: solid 1px #ffc58d;
-  background: url(../../assets//logoBack.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.6;
+  position: relative;
   margin: 1% 30% 3% 30%;
   padding-top: 1%;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+}
+
+.border-contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets//logoBack.jpg) no-repeat center center;
+  background-size: cover;
+  opacity: 0.6;
 }
 .form-email {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 label {
   font-family: var(--primary-font);

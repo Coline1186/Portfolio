@@ -2,8 +2,6 @@
   border-top: solid 6px #ffc58d;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .box {
   width: 100%;

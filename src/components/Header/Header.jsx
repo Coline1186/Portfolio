@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import "./Header.css";
 import "animate.css";
 import moi from "../../assets/IMG_5476.jpeg";
-
+import MenuBurger from "../MenuBurger/MenuBurger";
 function Header() {
   const scrollWithOffset = (el, offset) => {
     const elementPosition = el.offsetTop - offset;
@@ -61,14 +61,7 @@ function Header() {
         >
           Contact
         </Link>
-        {/* <div id="darkmode">
-          <input type="checkbox" className="checkbox" id="checkbox" />
-          <label htmlFor="checkbox" className="label">
-            <BsMoonStarsFill color="white" />
-            <BsFillSunFill color="yellow" />
-            <div className="ball"></div>
-          </label>
-        </div> */}
+        <MenuBurger />
       </nav>
     </header>
   );

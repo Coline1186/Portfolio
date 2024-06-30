@@ -1,11 +1,16 @@
 import PropTypes from "prop-types";
 import cv from "../../assets/cv/cv portfolio.png";
 import "./Modal.css";
+import { useEffect } from "react";
 
 function Modal({ setModalOpen, close }) {
   const handleCloseModal = () => {
     setModalOpen(false);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 1134);
+  }, []);
 
   return (
     <div

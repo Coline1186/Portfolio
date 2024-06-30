@@ -13,18 +13,10 @@ function Home() {
           <h3 className="my-job">Developpeuse Web Full Stack</h3>
         </div>
       </div>
-      <div>
-        <About />
-        <div>
-          <div>
-            <Skills />
-          </div>
-          <Projects />
-        </div>
-        <div>
-          <Contact />
-        </div>
-      </div>
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }

@@ -29,6 +29,7 @@ function Skills() {
   const handleClick = () => {
     setModalOpen(true);
   };
+
   return (
     <div id="skills">
       <Fade duration={2000}>

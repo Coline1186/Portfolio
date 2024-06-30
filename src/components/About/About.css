@@ -1,10 +1,8 @@
 #about {
   border-top: solid 6px #ffc58d;
   padding-bottom: 2.9rem;
-  min-height: 88vh;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 .title-about {

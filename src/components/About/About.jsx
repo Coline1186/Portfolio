@@ -28,29 +28,29 @@ function About() {
 
   return (
     <div id="about">
-      <div>
-        <h1 className="title-about">A propos de moi</h1>
-      </div>
-      <div className="text-carousel">
-        <div className="carousel-container-about">
-          <AnimatePresence>
-            {images.map(
-              (URL, index) =>
-                index === currentIndex && (
-                  <motion.div
-                    key={index}
-                    className="image-container-about"
-                    initial={{ opacity: 0, scale: 0.7 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.7 }}
-                    transition={{ duration: 3.5 }}
-                  >
-                    <img alt={`project-${index}`} src={URL} />
-                  </motion.div>
-                )
-            )}
-          </AnimatePresence>
-          <Fade duration={2000}>
+      <Fade duration={2000}>
+        <div>
+          <h1 className="title-about">A propos de moi</h1>
+        </div>
+        <div className="text-carousel">
+          <div className="carousel-container-about">
+            <AnimatePresence>
+              {images.map(
+                (URL, index) =>
+                  index === currentIndex && (
+                    <motion.div
+                      key={index}
+                      className="image-container-about"
+                      initial={{ opacity: 0, scale: 0.7 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.7 }}
+                      transition={{ duration: 3.5 }}
+                    >
+                      <img alt={`project-${index}`} src={URL} />
+                    </motion.div>
+                  )
+              )}
+            </AnimatePresence>
             <p className="first-pg">
               Après presque 14 ans en tant que secrétaire médicale en
               radiologie, j'ai ressenti le besoin de quitter un domaine qui,
@@ -61,9 +61,8 @@ function About() {
               décidé d'explorer le développement web.
             </p>
             <p>
-              Cette décision s'est révélée être la bonne.
-              Le bootcamp de 5 mois à la Wild Code School a confirmé mon choix
-              de reconversion. <br />
+              Cette décision s'est révélée être la bonne. Le bootcamp de 5 mois
+              à la Wild Code School a confirmé mon choix de reconversion. <br />
               Contrairement aux idées reçues, mon sens du relationnel et mon
               côté humain sont des atouts précieux dans ce domaine. Ils
               facilitent grandement le travail en équipe.
@@ -79,12 +78,12 @@ function About() {
               En dehors du développement web, j'aime voyager aux quatre coins du
               monde en famille ou entre amis, assister à des concerts, passer du
               temps avec mon neveu... <br />
-              Mais en vrai ce que j'aime par dessus tout c'est... MON CHAT 😻, faut
-              dire qu'elle est vraiment parfaite non ? 😆
+              Mais en vrai ce que j'aime par dessus tout c'est... MON CHAT 😻,
+              faut dire qu'elle est vraiment parfaite non ? 😆
             </p>
-          </Fade>
+          </div>
         </div>
-      </div>
+      </Fade>
     </div>
   );
 }
