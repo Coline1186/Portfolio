@@ -14,11 +14,10 @@
 }
 .first-pg {
   margin-top: 3vh;
-  margin-left: 2vh;
 }
 #about p {
   font-family: var(--primary-font);
-  margin-left: 2vh;
+  padding-left: 10vh;
   margin-bottom: 4vh;
 }
 .highlight {
