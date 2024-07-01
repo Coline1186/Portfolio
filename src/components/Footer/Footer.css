@@ -48,3 +48,14 @@
   font-size: 0.8rem;
   font-weight: 500;
 }
+@media screen and (max-width: 600px) {
+  #footer {
+    height: 15vh;
+  }
+  .logo-git {
+    font-size: 5vh;
+  }
+  .logo-linkedin {
+    font-size: 5vh;
+  }
+}

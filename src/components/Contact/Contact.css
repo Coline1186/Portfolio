@@ -81,7 +81,6 @@ label {
 .button-send {
   width: 25%;
   height: 50px;
-  margin-top: 2%;
   border-radius: 6px;
   font-family: var(--primary-font);
   margin-left: 37%;
@@ -89,4 +88,20 @@ label {
   background-color: #ffc58d;
   border-color: #f0eae4;
   font-size: 1rem;
+}
+@media screen and (max-width: 600px) {
+  #contact p {
+    margin-top: 5%;
+  }
+  .border-contact {
+    width: 90vw;
+    margin: 10% auto 3% auto;
+  }
+  .input-firstname {
+    width: 317px;
+  }
+  .button-send {
+    height: 40px;
+    margin-top: 6%;
+  }
 }

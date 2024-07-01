@@ -7,6 +7,9 @@
   font-family: var(--primary-font);
   text-align: center;
 }
+.both-container {
+  display: flex;
+}
 .card-style {
   background: #fff;
   border-radius: 10px;
@@ -70,5 +73,34 @@
   font-family: var(--primary-font);
 }
 @media screen and (max-width: 600px) {
-
+  .both-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-style {
+    width: 20vw;
+    height: 8vh;
+    margin-bottom: 10px;
+  }
+  .card-style {
+    width: 30vw;
+    height: 18vh;
+  }
+  .container-position {
+    gap: 40px;
+    width: 100vw;
+  }
+  .soft-skills {
+    width: 100vw;
+  }
+  .cv {
+    width: 70vw;
+  }
+  .cv:hover {
+    width: 70vw;
+  }
+  .download-btn {
+    width: 45vw;
+    height: 7vh;
+  }
 }

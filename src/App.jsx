@@ -14,7 +14,7 @@ function App() {
       <div>
         <Router>
           <Header />
-          <ScrollToTop smooth color="rgb(77, 76, 76)" />
+          <ScrollToTop smooth color="rgb(77, 76, 76)" className="scroll-top"/>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

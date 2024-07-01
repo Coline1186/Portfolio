@@ -17,3 +17,14 @@
 .cv-modal {
   width: 50vw;
 }
+@media screen and (max-width: 600px) {
+  #modal {
+    position: absolute;
+    left: 0;
+    top:300vh;
+    height: 75vh;
+  }
+  .cv-modal {
+  width: 95vw;
+}
+}

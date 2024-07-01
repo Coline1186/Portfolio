@@ -35,7 +35,7 @@ function Skills() {
       <Fade duration={2000}>
         <h1 className="title-skills">Mes compétences</h1>
       </Fade>
-      <div style={{ display: "flex" }}>
+      <div className="both-container">
         <div className="container-position">
           <Fade duration={2000}>
             {hardSkills.map((skill, index) => (
