@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import "./MenuBurger.css";
 import { Link } from "react-router-dom";

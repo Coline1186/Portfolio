@@ -1,9 +1,7 @@
 #about {
   border-top: solid 6px #ffc58d;
   padding-bottom: 2.9rem;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 88vh;
 }
 .title-about {
   margin-bottom: 5vh;
@@ -64,4 +62,33 @@
   max-height: 100%;
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  #about {
+    min-height: 88vh;
+  }
+  .title-about {
+    margin-bottom: 2.5vh;
+  }
+  .text-carousel {
+    grid-template-columns: 1fr;
+  }
+  .first-pg {
+    margin-top: 0vh;
+  }
+  #about p {
+    padding-left: 3vh;
+    margin-bottom: 2vh;
+  }
+  .image-container-about {
+    margin-top: 0vh;
+    left: 13vh;
+    top: 110vh;
+    width: 50vw;
+    height: 50vh;
+  }
+  .image-container-about img {
+    max-height: 50%;
+  }
 }

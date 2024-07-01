@@ -52,20 +52,14 @@ function About() {
               )}
             </AnimatePresence>
             <p className="first-pg">
-              Après presque 14 ans en tant que secrétaire médicale en
-              radiologie, j'ai ressenti le besoin de quitter un domaine qui,
-              selon moi, perd peu à peu son aspect humain, pourtant crucial.
+              Après presque 14 ans comme secrétaire médicale en radiologie, j'ai
+              choisi de me reconvertir dans le développement web, un domaine qui
+              allie ma passion pour la résolution d'énigmes et l'informatique.
+              Un bootcamp de 5 mois à la Wild Code School a confirmé mon choix.
             </p>
             <p>
-              Passionnée par la résolution d'énigmes et l'informatique, j'ai
-              décidé d'explorer le développement web.
-            </p>
-            <p>
-              Cette décision s'est révélée être la bonne. Le bootcamp de 5 mois
-              à la Wild Code School a confirmé mon choix de reconversion. <br />
-              Contrairement aux idées reçues, mon sens du relationnel et mon
-              côté humain sont des atouts précieux dans ce domaine. Ils
-              facilitent grandement le travail en équipe.
+              Mes compétences relationnelles et mon sens du travail en équipe
+              sont des atouts précieux dans ce domaine.
             </p>
             <p>
               Prochaine étape,{" "}

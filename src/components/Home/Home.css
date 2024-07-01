@@ -74,3 +74,26 @@
     border-right-color: transparent;
   }
 }
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .background {
+    height: 47vh;
+  }
+  .background::before {
+    background-repeat: no-repeat;
+  }
+  .name {
+  margin-top: 12vh;
+  height: 30vh;
+  width: 70vw;
+  opacity: 0.9;
+}
+.animate__flipInX {
+  margin-top: 6vh;
+  font-size: 2rem;
+}
+.my-job {
+  margin-top: 5vh;
+  font-size: 1.5rem;
+}
+}
