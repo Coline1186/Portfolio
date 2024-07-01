@@ -35,7 +35,6 @@ function About() {
       </Fade>
       <div className="text-carousel">
         <div className="carousel-container-about">
-          <Fade duration={2000}>
             <AnimatePresence>
               {images.map(
                 (URL, index) =>
@@ -53,7 +52,6 @@ function About() {
                   )
               )}
             </AnimatePresence>
-          </Fade>
           <Fade duration={2000}>
             <p className="first-pg">
               Après presque 14 ans comme secrétaire médicale en radiologie, j'ai
