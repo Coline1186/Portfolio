@@ -68,7 +68,7 @@ function About() {
               </span>
               , idéalement sous la forme d'une alternance.{" "}
             </p>
-            <p>
+            <p className="prg-responsive">
               En dehors du développement web, j'aime voyager aux quatre coins du
               monde en famille ou entre amis, assister à des concerts, passer du
               temps avec mon neveu... <br />

@@ -81,10 +81,13 @@
     padding-left: 3vh;
     margin-bottom: 2vh;
   }
+  .prg-responsive{
+    margin-right: 25vh;
+  }
   .image-container-about {
     margin-top: 0vh;
-    left: 13vh;
-    top: 110vh;
+    right: 0;
+    top: 97vh;
     width: 50vw;
     height: 50vh;
   }
