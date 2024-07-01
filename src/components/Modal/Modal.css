@@ -19,12 +19,6 @@
 }
 @media screen and (max-width: 600px) {
   #modal {
-    position: absolute;
-    left: 0;
-    top:300vh;
-    height: 75vh;
+    display: none;
   }
-  .cv-modal {
-  width: 95vw;
-}
 }

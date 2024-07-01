@@ -90,10 +90,14 @@ label {
   font-size: 1rem;
 }
 @media screen and (max-width: 600px) {
+  #contact {
+    min-height: 88vh;
+  }
   #contact p {
     margin-top: 5%;
   }
   .border-contact {
+    height: 55vh;
     width: 90vw;
     margin: 10% auto 3% auto;
   }

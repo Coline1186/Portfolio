@@ -73,6 +73,9 @@
   font-family: var(--primary-font);
 }
 @media screen and (max-width: 600px) {
+  .title-skills {
+    margin-bottom: 2.5vh;
+  }
   .both-container {
     display: flex;
     flex-direction: column;
@@ -93,7 +96,11 @@
   .soft-skills {
     width: 100vw;
   }
+  .title-soft {
+    display: none;
+  }
   .cv {
+    margin-top: 8%;
     width: 70vw;
   }
   .cv:hover {
