@@ -79,9 +79,12 @@
   .background {
     min-height: 100vh;
   }
+  .background::before {
+    top: -322px;
+  }
   .name {
-    top: 8vh;
-    height: 50vh;
+    top:20vh;
+    height: 35vh;
     width: 100vw;
     opacity: 0.9;
   }
