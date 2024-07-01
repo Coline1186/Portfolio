@@ -32,8 +32,10 @@ function About() {
         <div>
           <h1 className="title-about">A propos de moi</h1>
         </div>
-        <div className="text-carousel">
-          <div className="carousel-container-about">
+      </Fade>
+      <div className="text-carousel">
+        <div className="carousel-container-about">
+          <Fade duration={2000}>
             <AnimatePresence>
               {images.map(
                 (URL, index) =>
@@ -51,16 +53,22 @@ function About() {
                   )
               )}
             </AnimatePresence>
+          </Fade>
+          <Fade duration={2000}>
             <p className="first-pg">
               Après presque 14 ans comme secrétaire médicale en radiologie, j'ai
               choisi de me reconvertir dans le développement web, un domaine qui
               allie ma passion pour la résolution d'énigmes et l'informatique.
               Un bootcamp de 5 mois à la Wild Code School a confirmé mon choix.
             </p>
+          </Fade>
+          <Fade duration={2000}>
             <p>
               Mes compétences relationnelles et mon sens du travail en équipe
               sont des atouts précieux dans ce domaine.
             </p>
+          </Fade>
+          <Fade duration={2000}>
             <p>
               Prochaine étape,{" "}
               <span className="highlight">
@@ -68,6 +76,8 @@ function About() {
               </span>
               , idéalement sous la forme d'une alternance.{" "}
             </p>
+          </Fade>
+          <Fade duration={2000}>
             <p className="prg-responsive">
               En dehors du développement web, j'aime voyager aux quatre coins du
               monde en famille ou entre amis, assister à des concerts, passer du
@@ -75,9 +85,9 @@ function About() {
               Mais en vrai ce que j'aime par dessus tout c'est... MON CHAT 😻,
               faut dire qu'elle est vraiment parfaite non ? 😆
             </p>
-          </div>
+          </Fade>
         </div>
-      </Fade>
+      </div>
     </div>
   );
 }
