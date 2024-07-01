@@ -69,3 +69,6 @@
   color: var(--primary-color);
   font-family: var(--primary-font);
 }
+@media screen and (max-width: 600px) {
+
+}

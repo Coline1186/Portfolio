@@ -77,19 +77,21 @@
 /* MOBILE */
 @media screen and (max-width: 600px) {
   .background {
-    max-height: 100vh;
+    min-height: 100vh;
   }
   .name {
-    height: 30vh;
-    width: 70vw;
+    top: 8vh;
+    height: 50vh;
+    width: 100vw;
     opacity: 0.9;
   }
   .animate__flipInX {
-    margin-top: 6vh;
-    font-size: 2rem;
+    margin-top: auto;
+    font-size: 3rem;
   }
   .my-job {
+    margin-bottom: auto;
     margin-top: 5vh;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
