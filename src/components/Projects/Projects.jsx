@@ -5,6 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Projects.css";
 import { FaEarthAmericas } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
+import { FaArrowDown } from "react-icons/fa6";
 import wildram from "../../assets/projects/Wildgram.png";
 import hero from "../../assets/projects/The-hero-experience.png";
 import rigol from "../../assets/projects/Rigol-App.png";
@@ -20,6 +21,19 @@ function Projects() {
       <div className="box">
         <Fade duration={2000}>
           <h1 className="title-project">Mes projets</h1>
+          <div className="project--text-responsive">
+            <p className="advice-responsive">Cliquez pour en savoir plus</p>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              animate={{ y: [2, -10, 2] }}
+              transition={{
+                repeat: Infinity,
+                duration: 2,
+              }}
+            >
+              <FaArrowDown className="arrow-responsive" />
+            </motion.div>
+          </div>
         </Fade>
         <Fade duration={2000}>
           <Carousel

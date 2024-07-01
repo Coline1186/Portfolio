@@ -4,7 +4,9 @@
   display: flex;
   justify-content: center;
 }
-
+.project--text-responsive {
+  display: none;
+}
 .box {
   width: 100%;
   padding: 0 10%;
@@ -188,29 +190,48 @@
 
 @media screen and (max-width: 600px) {
   #projects {
-    min-height: 37vh;
+    min-height: 88vh;
   }
   .title-project {
-    margin-bottom: 2.5vh;
+    margin-bottom: 14vh;
+  }
+  .project--text-responsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .advice-responsive{
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    margin-bottom: 3vh;
+  }
+  .arrow-responsive{
+    font-size: 2.5rem;
+    margin-bottom: 6vh;
   }
   .box {
     padding: 0 2%;
   }
-
   .text-hover {
+    margin-bottom: 0;
     font-size: 2rem;
   }
-
   .logo-hover {
     max-width: 10%;
   }
-
   .link-hover {
-    margin-left: 25%;
-    width: 50%;
-    height: 40px;
+    margin-top: 0;
+    font-size: 1rem;
+    margin-left: 32%;
+    width: 37%;
+    height: 31px;
   }
-
+  .carousel .control-dots .dot {
+    width: 8px;
+    height: 8px;
+  }
   .carousel.carousel-slider .control-arrow {
     font-size: 20px;
     margin-left: 1rem;
