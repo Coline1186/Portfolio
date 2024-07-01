@@ -2,35 +2,44 @@
   border-top: solid 6px #ffc58d;
   min-height: 100vh;
   display: flex;
+  justify-content: center;
 }
+
 .box {
   width: 100%;
+  padding: 0 10%;
 }
+
 .title-project {
   font-family: var(--primary-font);
   text-align: center;
   margin-bottom: 7vh;
 }
+
 .carousel .slider-wrapper {
-  width: 67%;
+  width: 100%;
   position: relative;
   opacity: 1;
   display: block;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
+
 .slide {
   position: relative;
 }
+
 .slide img {
   width: 100%;
   height: auto;
   display: block;
 }
+
 .carousel .control-dots .dot {
   width: 12px;
   height: 12px;
 }
+
 .text-tag {
   display: flex;
   flex-direction: column;
@@ -46,12 +55,15 @@
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .slide:hover .text-tag {
   opacity: 1;
 }
+
 .logo-hover {
   max-width: 6%;
 }
+
 .text-hover {
   font-family: var(--primary-font);
   color: rgb(253, 247, 235);
@@ -59,6 +71,7 @@
   text-shadow: 5px 5px gray;
   margin-bottom: 2vh;
 }
+
 .link-hover {
   margin-top: 3%;
   margin-right: auto;
@@ -69,31 +82,39 @@
   width: 20%;
   height: 48px;
 }
+
 .a-hover {
   text-decoration: none;
   color: black;
   font-family: var(--second-font);
 }
+
 .a-hover:hover {
   text-shadow: 3px 2px gray;
 }
+
 .FaEarth {
   border-radius: 100%;
   box-shadow: 2px 1px white;
 }
+
 .carousel {
   margin-bottom: 10vh;
 }
+
 .carousel * {
   border-radius: 20px;
 }
+
 .thumbs {
   display: none;
 }
+
 .carousel.carousel-slider .control-arrow {
   margin-left: 10rem;
   margin-right: 10rem;
 }
+
 .carousel .control-arrow .carousel.carousel-slider .control-arrow {
   transition: all 0.25s ease-in;
   opacity: 1;
@@ -105,6 +126,7 @@
   font-size: 32px;
   cursor: pointer;
 }
+
 .carousel .control-arrow:before,
 .carousel.carousel-slider .control-arrow:before {
   margin: 0px 5px;
@@ -113,28 +135,85 @@
   border-bottom: 40px solid transparent;
   content: "";
 }
+
 .carousel .control-next.control-arrow:before {
   border-left: 0px solid black;
   position: relative;
 }
+
 .carousel .control-prev.control-arrow:before {
   border-right: 0px solid black;
   position: relative;
 }
+
 .carousel .control-next.control-arrow:hover {
   background: none;
   position: absolute;
 }
+
 .carousel .control-prev.control-arrow:hover {
   background: none;
   position: absolute;
 }
-@media screen and (max-width: 600px) {
-  .carousel .slider-wrapper {
-  position: relative;
-  opacity: 1;
-  display: block;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .box {
+    padding: 0 5%;
+  }
+
+  .link-hover {
+    margin-left: 35%;
+    width: 30%;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .link-hover {
+    margin-left: 30%;
+    width: 40%;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #projects {
+    min-height: 37vh;
+  }
+  .title-project {
+    margin-bottom: 2.5vh;
+  }
+  .box {
+    padding: 0 2%;
+  }
+
+  .text-hover {
+    font-size: 2rem;
+  }
+
+  .logo-hover {
+    max-width: 10%;
+  }
+
+  .link-hover {
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
