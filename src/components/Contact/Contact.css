@@ -107,5 +107,6 @@ label {
   .button-send {
     height: 40px;
     margin-top: 6%;
+    color: black;
   }
 }
