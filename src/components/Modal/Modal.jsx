@@ -9,7 +9,9 @@ function Modal({ setModalOpen, close }) {
   };
 
   useEffect(() => {
-    window.scrollTo(0, 1134);
+    const width = window.innerWidth;
+    const min = 1060;
+    if (min - width===1060) window.scrollTo(0, 1134);
   }, []);
 
   return (

@@ -66,9 +66,10 @@
 /* MOBILE */
 @media screen and (max-width: 600px) {
   #about {
-    min-height: 88vh;
+    min-height: 100vh;
   }
   .title-about {
+    margin-top: 1vh;
     margin-bottom: 2.5vh;
   }
   .text-carousel {
@@ -81,13 +82,11 @@
     padding-left: 2vh;
     margin-bottom: 2vh;
   }
-  .prg-responsive{
-    margin-right: 25vh;
-  }
+  
   .image-container-about {
     margin-top: 0vh;
-    right: 0;
-    top: 160vh;
+    left: 13vh;
+    top: 166vh;
     width: 50vw;
     height: 50vh;
   }

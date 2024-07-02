@@ -93,6 +93,9 @@ label {
   #contact {
     min-height: 88vh;
   }
+  .titles-contact {
+    margin-top: 1vh;
+  }
   #contact p {
     margin-top: 5%;
   }
@@ -105,8 +108,9 @@ label {
     width: 317px;
   }
   .button-send {
-    height: 40px;
+    height: 46px;
     margin-top: 6%;
+    margin-bottom: 1%;
     color: black;
   }
 }

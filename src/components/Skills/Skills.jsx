@@ -72,6 +72,8 @@ function Skills() {
               <a
                 href="/cv/CV développement web.pdf"
                 download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="download-txt"
               >
                 Télécharger mon CV

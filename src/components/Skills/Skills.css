@@ -74,6 +74,7 @@
 }
 @media screen and (max-width: 600px) {
   .title-skills {
+    margin-top: 1vh;
     margin-bottom: 2.5vh;
   }
   .both-container {

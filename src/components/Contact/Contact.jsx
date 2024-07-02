@@ -73,8 +73,14 @@ function Contact() {
             <label className="text-contact">Message*</label>
             <textarea name="message" required className="input-message" />
             <input type="submit" value="Envoyer" className="button-send" />
-            <h5 style={{ marginBottom: "2%", marginLeft: "3%" }}>
-              * Champ obligatoire
+            <h5
+              style={{
+                marginBottom: "2%",
+                marginLeft: "3%",
+                fontFamily: "var(--primary-font)",
+              }}
+            >
+              * Champs obligatoires
             </h5>
           </form>
         </div>
