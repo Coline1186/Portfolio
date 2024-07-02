@@ -11,7 +11,7 @@ function Modal({ setModalOpen, close }) {
   useEffect(() => {
     const width = window.innerWidth;
     const min = 1060;
-    if (min - width===1060) window.scrollTo(0, 1134);
+    if (min - width) window.scrollTo(0, 1134);
   }, []);
 
   return (
