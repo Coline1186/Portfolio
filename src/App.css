@@ -28,9 +28,6 @@ header {
   z-index: 1030;
 }
 @media screen and (max-width: 600px) {
-  body {
-    overflow-x: hidden;
-  }
   .scroll-top {
     display: none;
   }
