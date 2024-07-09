@@ -93,9 +93,11 @@
   .container-position {
     gap: 40px;
     width: 100vw;
+    margin: 0;
   }
   .soft-skills {
     width: 100vw;
+    margin: 0;
   }
   .title-soft {
     display: none;
