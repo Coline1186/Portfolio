@@ -19,7 +19,6 @@
 body {
   background-repeat: no-repeat;
   background: rgb(250, 248, 244);
-  overflow-x: hidden;
 }
 header {
   position: fixed;
@@ -29,6 +28,9 @@ header {
   z-index: 1030;
 }
 @media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
   .scroll-top {
     display: none;
   }
