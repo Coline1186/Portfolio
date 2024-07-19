@@ -27,7 +27,7 @@ Animate.css for animations
 
 # Installation
 Clone the repository:
-  git clone git@github.com:Coline1186/Portfolio.git
+  git clone git@github.com:Coline1186/Portfolio.git -- 
   cd Portfolio
   
 Install dependencies:
