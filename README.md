@@ -11,18 +11,18 @@ Currently, two official plugins are available:
 This portfolio was created to showcase my skills and projects in web development. It was developed using React and Vite for optimized performance and a smooth user experience.
 
 # Features
-Personal introduction
-Skills list
-Project gallery with descriptions
-Functional contact form
-Responsive navigation menu with burger menu
+Personal introduction,
+Skills list,
+Project gallery with descriptions,
+Functional contact form,
+Responsive navigation menu with burger menu,
 
 # Technologies
-React
-Vite
-EmailJS for email sending
-React Router for navigation
-CSS3 for styling
+React,
+Vite,
+EmailJS for email sending,
+React Router for navigation,
+CSS3 for styling,
 Animate.css for animations
 
 # Installation
