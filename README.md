@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Portfolio
-This portfolio was created to showcase my skills and projects in web development. It was developed using React and Vite for optimized performance and a smooth user experience.
+This portfolio was created to showcase my skills and projects in web development. It was developed using React and Vite for optimized performance and a smooth user experience : https://my-portfolio-neon-rho-40.vercel.app
 
 # Features
 Personal introduction,
