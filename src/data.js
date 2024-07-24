@@ -17,7 +17,7 @@ const hoverImages = [
     logo4: express,
     logo5: sql,
     logo6: node,
-    site: "https://github.com/WildCodeSchool-2024-02/JS-Paris-BrainWaves-P3-Gems",
+    site: "https://gems-gems.fr/",
   },
   {
     id: 2,
