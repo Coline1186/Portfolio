@@ -120,7 +120,7 @@ function Projects() {
                         }}
                         className="FaEarth"
                       />
-                      {index === 0 || index === 4 ? (
+                      {index === 4 ? (
                         <a
                           href={hoverImages[index].site}
                           target="_blank"
