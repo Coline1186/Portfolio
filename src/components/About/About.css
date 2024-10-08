@@ -25,6 +25,7 @@
     hsl(0, 0%, 100%) 10%,
     hsl(242, 85%, 30%) 20%
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 5s infinite linear;
