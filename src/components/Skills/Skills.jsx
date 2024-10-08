@@ -8,7 +8,8 @@ import reactLogo from "../../assets/logo/react.png";
 import nodeLogo from "../../assets/logo/node.png";
 import expressLogo from "../../assets/logo/express.png";
 import mysqlLogo from "../../assets/logo/mysql.png";
-import cv from "../../assets/cv/cv portfolio.png";
+import phpSym from "../../assets/logo/php-symfony-not-java.png";
+import cv from "../../assets/cv/CV Coline Grosso-1.png";
 import "./Skills.css";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
@@ -21,6 +22,7 @@ const hardSkills = [
   { name: "Node.js", logo: nodeLogo },
   { name: "Express", logo: expressLogo },
   { name: "MySQL", logo: mysqlLogo },
+  { name: "PHP/Symfony", logo: phpSym },
 ];
 
 function Skills() {
@@ -70,7 +72,7 @@ function Skills() {
             <img src={cv} alt="mon cv" className="cv" onClick={handleClick} />
             <div className="download-btn">
               <a
-                href="/cv/CV développement web.pdf"
+                href="/cv/CV Coline Grosso.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
