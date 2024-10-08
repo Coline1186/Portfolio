@@ -43,10 +43,12 @@
 .text-carousel {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  font-size: 1.2rem;
 }
-.carousel-about {
-  width: 80%;
+.carousel-container-about {
+  width: 90%;
   overflow: hidden;
+  margin-top: 7vh;
 }
 .image-container-about {
   margin-top: 3vh;
@@ -82,7 +84,7 @@
     padding-left: 2vh;
     margin-bottom: 2vh;
   }
-  
+
   .image-container-about {
     margin-top: 0vh;
     left: 13vh;
