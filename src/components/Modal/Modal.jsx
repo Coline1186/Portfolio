@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import cv from "../../assets/cv/CV Coline Grosso-1.png";
+import cv from "../../assets/cv/CV développement web-1.png";
 import "./Modal.css";
 import { useEffect } from "react";
 

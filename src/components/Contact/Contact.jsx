@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useRef } from "react";
 import { Fade } from "react-awesome-reveal";
+import { toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
@@ -26,11 +27,14 @@ function Contact() {
         .then(
           (result) => {
             console.log(result.text);
-            alert("Message envoyé");
+            toast.success("Message envoyé");
           },
-          (error) => console.log(error.text)
+          (error) => {
+            console.log(error.text);
+            toast.error("Une erreur est survenue, veuillez réessayer.");
+          }
         );
-      e.target.reset(); // clear form when it's sent
+      e.target.reset(); 
     } else {
       alert("Veuillez remplir tous les champs");
     }

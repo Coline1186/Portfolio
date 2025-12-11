@@ -5,11 +5,13 @@ import htmlLogo from "../../assets/logo/html5.png";
 import cssLogo from "../../assets/logo/css3.png";
 import jsLogo from "../../assets/logo/js.png";
 import reactLogo from "../../assets/logo/react.png";
+import ts from "../../assets/logo/typescript.png";
 import nodeLogo from "../../assets/logo/node.png";
 import expressLogo from "../../assets/logo/express.png";
 import mysqlLogo from "../../assets/logo/mysql.png";
+import postgre from "../../assets/logo/postgre.png";
 import phpSym from "../../assets/logo/php-symfony-not-java.png";
-import cv from "../../assets/cv/CV Coline Grosso-1.png";
+import cv from "../../assets/cv/CV développement web-1.png";
 import "./Skills.css";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
@@ -19,9 +21,11 @@ const hardSkills = [
   { name: "CSS3", logo: cssLogo },
   { name: "JavaScript", logo: jsLogo },
   { name: "React", logo: reactLogo },
+  { name: "TypeScript", logo: ts },
   { name: "Node.js", logo: nodeLogo },
   { name: "Express", logo: expressLogo },
   { name: "MySQL", logo: mysqlLogo },
+  { name: "PostgreSQL", logo: postgre },
   { name: "PHP/Symfony", logo: phpSym },
 ];
 
