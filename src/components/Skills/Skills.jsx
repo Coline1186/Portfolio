@@ -11,7 +11,7 @@ import expressLogo from "../../assets/logo/express.png";
 import mysqlLogo from "../../assets/logo/mysql.png";
 import postgre from "../../assets/logo/postgre.png";
 import phpSym from "../../assets/logo/php-symfony-not-java.png";
-import cv from "../../assets/cv/CV développement web-1.png";
+import cv from "../../assets/cv/CV Coline Grosso-1.png";
 import "./Skills.css";
 import { useState } from "react";
 import Modal from "../Modal/Modal";
